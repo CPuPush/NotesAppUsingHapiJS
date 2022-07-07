@@ -1,0 +1,25 @@
+{
+  "name": "notesappusinghapijs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CPuPush/NotesAppUsingHapiJS.git"
+  },
+  "author": "cpupush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CPuPush/NotesAppUsingHapiJS/issues"
+  },
+  "homepage": "https://github.com/CPuPush/NotesAppUsingHapiJS#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^3.3.4",
+    "nodemon": "^2.0.19"
+  }
+}
