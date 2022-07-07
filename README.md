@@ -1,4 +1,4 @@
-<h1>Build Web Server Using Hapi<h1>
+# Build Web Server Using Hapi
   1. Clone this repo<br>
   2. npm init in command line for configuration package.json<br>
   3. Run the server using this command : "npm run start"<br>
