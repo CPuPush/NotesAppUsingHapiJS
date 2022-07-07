@@ -7,6 +7,6 @@
   <img src="./img/1.png">
   6. Change url with local http://localhost:5000 url<br>
   <img src = "./img/2.png">
-  7. The server will run well
+  7. The server will run well<br><br>
 
 Practice From <a href="https://www.dicoding.com/">DICODING</a>
