@@ -78,7 +78,7 @@ const editNoteByIdHandler=(request, h)=>{
 
         const response = h.response({
             status: 'success',
-            message:'catatan berhasil ditambahkan',
+            message:'catatan berhasil diperbaharui',
         });
         response.code(404);
         return response;
@@ -100,4 +100,4 @@ const deleteByIdHandler = (request, h)=>{
     } 
 };
 // using object literal for module.exports=> untuk lebih dari satu nilai;
-module.exports = {addNoteHandler, getAllNotesHandler, getNoteByIdHandler, editNoteByIdHandler};
+module.exports = {addNoteHandler, getAllNotesHandler, getNoteByIdHandler, editNoteByIdHandler, deleteByIdHandler};
