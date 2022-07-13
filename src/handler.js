@@ -80,7 +80,7 @@ const editNoteByIdHandler=(request, h)=>{
             status: 'success',
             message:'catatan berhasil diperbaharui',
         });
-        response.code(404);
+        response.code(200);
         return response;
     }
 };
@@ -92,7 +92,7 @@ const deleteByIdHandler = (request, h)=>{
     if(index !== 1){
         notes.splice(index, 1);
         const response = h.response({
-            status:'succes',
+            status:'success',
             message:'catatan berhasil dihapus',
         });
         response.code(200);
